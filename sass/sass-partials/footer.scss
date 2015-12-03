@@ -1,0 +1,28 @@
+footer {
+    padding: 2rem 0;
+    .col-2:first-child {
+        border-left: 0;
+    }
+    p:last-child {}
+    h4 {
+        font-size: 1.414rem;
+        padding: 0.5rem 2rem;
+        color: $dark-brown;
+        &[lang=de] {
+            display: block;
+        }
+        &[lang=en],
+        &[lang=ar],
+        &[lang=ru] {
+            display: none;
+        }
+    }
+    p {
+        font-size: 1rem;
+        padding: 0.5rem 2rem;
+        color: $dark-grey;
+    }
+    .fa-circle {
+        color: $dark-grey;
+    }
+}

@@ -1,0 +1,26 @@
+.bg-header {
+    background-color: #FFF;
+    background-color: $light-blue;
+    color: $dark-grey;
+    border-bottom: 1rem solid $med-blue;
+    border-top: 1rem solid $dark-blue;
+    position: relative;
+    &:before {
+        content: "";
+        position: absolute;
+        bottom: -1rem;
+        width: 30%;
+        height: 1rem;
+        background-color: $dark-blue;
+        left: 0;
+    }
+    &:after {
+        content: "";
+        position: absolute;
+        bottom: -1rem;
+        width: 30%;
+        height: 1rem;
+        background-color: $dark-blue;
+        right: 0;
+    }
+}
